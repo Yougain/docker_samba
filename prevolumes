@@ -1,0 +1,12 @@
+/etc/samba
+/var/lib/samba
+/var/log
+/home
+/var/spool/mail
+/etc/sysconfig/samba
+/etc/passwd
+/etc/group
+/etc/login.defs
+/etc/shadow
+/etc/gshadow
+/etc/default/useradd

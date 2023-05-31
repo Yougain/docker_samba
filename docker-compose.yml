@@ -1,0 +1,18 @@
+---
+version: '3'
+services:
+  samba:
+    build:
+      context: "."
+      no_cache: true
+    restart: always
+    ports:
+    - 139:139
+    - 445:445
+    environment:
+    - TZ=Asia/Tokyo
+    - USERID=1100
+    - GROUPID=1100
+    hostname: shanghai_samba.you.dix.asia
+    tty: true
+    stdin_open: true
